@@ -1,0 +1,22 @@
+@import _variables.sass
+@media screen and (min-width: 320px) and (max-width: 426px)
+    .header
+        .row__info
+            display: flex
+            flex-direction: column
+            .contacts
+                text-align: center
+                .email
+                    display: block
+                    margin-bottom: 5px
+                .place
+                    margin-bottom: 5px
+                .working-time
+                    position: relative
+                    &::after, &::before
+                        display: block
+                        content: ''
+                        width: 90%
+                        height: 2px
+                        background-color: #E9E9E9
+                        margin: 5px auto
