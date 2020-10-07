@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0;
   color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 div,
@@ -81,42 +82,6 @@ a:hover {
   text-decoration: underline;
 }
 
-@font-face {
-  font-family: "SourceSansPro-Light";
-  font-display: swap;
-  src: url("../fonts/SourceSansPro.eot");
-  src: url("../fonts/SourceSansPro.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro.woff") format("woff"), url("../fonts/SourceSansPro.woff2") format("woff2"), url("../fonts/SourceSansPro.ttf") format("ttf");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SourceSansPro-Regular";
-  font-display: swap;
-  src: url("../fonts/SourceSansPro.eot");
-  src: url("../fonts/SourceSansPro.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro.woff") format("woff"), url("../fonts/SourceSansPro.woff2") format("woff2"), url("../fonts/SourceSansPro.ttf") format("ttf");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SourceSansPro-Semibold";
-  font-display: swap;
-  src: url("../fonts/SourceSansPro.eot");
-  src: url("../fonts/SourceSansPro.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro.woff") format("woff"), url("../fonts/SourceSansPro.woff2") format("woff2"), url("../fonts/SourceSansPro.ttf") format("ttf");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SourceSansPro-Bold";
-  font-display: swap;
-  src: url("../fonts/SourceSansPro.eot");
-  src: url("../fonts/SourceSansPro.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro.woff") format("woff"), url("../fonts/SourceSansPro.woff2") format("woff2"), url("../fonts/SourceSansPro.ttf") format("ttf");
-  font-weight: 700;
-  font-style: normal;
-}
-
 .container {
   max-width: 1180px;
   width: 100%;
@@ -139,6 +104,13 @@ a:hover {
   margin-bottom: 15px;
 }
 
+<<<<<<< Updated upstream
+=======
+.header {
+  padding: 5px 0;
+}
+
+>>>>>>> Stashed changes
 .header .row__info {
   position: relative;
   display: -webkit-box;
@@ -172,11 +144,13 @@ a:hover {
   align-items: center;
   font-size: .875rem;
   color: #8C8C8C;
+  padding-left: 5px;
 }
 
 .header .row__info .contacts .wrapper {
   width: 100%;
   position: relative;
+  margin-right: 25px;
 }
 
 .header .row__info .contacts .wrapper::after {
@@ -186,7 +160,11 @@ a:hover {
   width: 2px;
   height: 100%;
   background-color: #E9E9E9;
+<<<<<<< Updated upstream
   right: 10px;
+=======
+  right: 0;
+>>>>>>> Stashed changes
   top: 0;
   z-index: 2;
 }
@@ -213,7 +191,11 @@ a:hover {
   width: 2px;
   height: 100%;
   background-color: #E9E9E9;
+<<<<<<< Updated upstream
   right: 10px;
+=======
+  right: 0;
+>>>>>>> Stashed changes
   top: 0;
   z-index: 2;
 }
@@ -228,6 +210,10 @@ a:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+<<<<<<< Updated upstream
+=======
+  padding: 0 .5em;
+>>>>>>> Stashed changes
 }
 
 .header .row__info .social-info .facebook {
@@ -252,7 +238,11 @@ a:hover {
 
 .header .row__navigation .navbar-brand {
   position: relative;
+<<<<<<< Updated upstream
   margin-right: 1.75em;
+=======
+  margin-right: 1.5em;
+>>>>>>> Stashed changes
 }
 
 .header .row__navigation .collapse {
@@ -285,7 +275,11 @@ a:hover {
   height: 8px;
   background-color: #FFD538;
   bottom: 3px;
+<<<<<<< Updated upstream
   left: -400px;
+=======
+  left: -1700px;
+>>>>>>> Stashed changes
   opacity: .8;
   z-index: -2;
   -webkit-transition: linear all .4s;
@@ -435,6 +429,7 @@ a:hover {
   position: relative;
   z-index: 3;
   border-top: 1px solid #FFF;
+  padding: 0 15px;
 }
 
 .footer .row__wrapper .main-part {
@@ -456,7 +451,11 @@ a:hover {
 }
 
 .footer .row__wrapper .main-part .footer-navigation .footer-menu {
+<<<<<<< Updated upstream
   padding: 45px 60px;
+=======
+  padding: 45px 50px;
+>>>>>>> Stashed changes
 }
 
 .footer .row__wrapper .main-part .footer-navigation .footer-menu .footer-menu-link {
@@ -478,7 +477,11 @@ a:hover {
 }
 
 .footer .row__wrapper .main-part .catalog-links-list {
+<<<<<<< Updated upstream
   padding: 45px 60px 0;
+=======
+  padding: 45px 40px 0;
+>>>>>>> Stashed changes
   border-right: 1px solid #FFF;
   border-left: 1px solid #FFF;
 }
@@ -607,14 +610,17 @@ a:hover {
 .footer .row__wrapper .info-part p a {
   color: #FFF;
   text-decoration: none;
+<<<<<<< Updated upstream
 }
 
 .footer .row__wrapper .info-part p a:hover {
   color: #FFD538;
+=======
+>>>>>>> Stashed changes
 }
 
-body {
-  font-family: "Sourse Sans Pro", sans-serif;
+.footer .row__wrapper .info-part p a:hover {
+  color: #FFD538;
 }
 
 #banner {
@@ -646,6 +652,7 @@ body {
 }
 
 #banner .links .link-item .link {
+  width: 100%;
   height: 132px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -844,6 +851,7 @@ body {
 
 #partners .slick-slider .slick-list {
   width: 100%;
+<<<<<<< Updated upstream
 }
 
 #partners .slick-slider .slick-list .slick-slide div {
@@ -877,6 +885,41 @@ body {
   font-size: 15px;
 }
 
+=======
+}
+
+#partners .slick-slider .slick-list .slick-slide div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100px;
+  margin-right: 5px;
+}
+
+#partners .slick-slider .slick-list .slick-slide div .partner img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#partners .slick-slider .slick-dots li button {
+  width: 25px;
+  height: 25px;
+}
+
+#partners .slick-slider .slick-dots li button::before {
+  font-size: 15px;
+}
+
+>>>>>>> Stashed changes
 #partners .slick-slider .slick-dots li.slick-active button::before {
   color: #FFD538;
 }
@@ -993,7 +1036,11 @@ body {
   padding: 17px;
   font-size: .875rem;
   font-style: italic;
+<<<<<<< Updated upstream
   width: 76%;
+=======
+  width: 70%;
+>>>>>>> Stashed changes
   color: #2F363E;
   position: relative;
 }
