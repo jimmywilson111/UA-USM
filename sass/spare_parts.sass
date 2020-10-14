@@ -1,0 +1,43 @@
+@import _variables.sass
+@import _header.sass
+@import _footer.sass
+
+#spare-parts
+    padding: 60px 0
+    .title-wrapper
+        display: flex
+        justify-content: space-between
+        margin-bottom: 50px
+        label
+            display: flex
+            align-items: center
+            color: $gray
+    .content
+        .detail-list
+            li
+                margin-bottom: 15px
+                .spare-part
+                    margin: 0 0 15px 0
+                    text-align: center
+                    border: 1px solid #D5D5D5
+                    h4
+                        font-weight: 600
+                        font-size: 1.125rem
+                        padding: 10px 0
+                    img
+                        width: 100%
+                        max-width: 300px
+                        max-height: 195px
+                        object-fit: cover
+                    .attributes
+                        padding: 0 .5em .5em .5em
+                        min-height: 200px
+                        p
+                            margin: 0 0 5px 0
+                            font-weight: 600
+                            font-size: .9375rem
+                            span
+                                display: block
+                                font-size: .9375rem
+                    .buy-btn
+                        text-decoration: none

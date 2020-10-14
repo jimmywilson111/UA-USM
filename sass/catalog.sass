@@ -1,0 +1,47 @@
+@import _variables.sass
+@import _header.sass
+@import _footer.sass
+
+#catalog
+    padding: 60px 0
+    .title-wrapper
+        display: flex
+        justify-content: space-between
+        margin-bottom: 50px
+        label
+            display: flex
+            align-items: center
+            color: $gray
+    .technique-list
+        .technique-item
+            padding-left: 0
+            .item
+                margin: 0 0 15px 0
+                .technique-link
+                    text-decoration: none
+                    display: block
+                    border: 1px solid #D5D5D5
+                    overflow: hidden
+                    padding: 1.5rem 0
+                    text-align: center
+                    height: 180px
+                    &:hover
+                        border-color: $yellow
+                        h4
+                            &::before
+                                left: 0
+                                bottom: 0
+                    h4
+                        display: inline-block
+                        position: relative
+                        font-weight: 600
+                        font-size: 1rem
+                        color: $black
+                        text-align: center
+                        margin: 15px 0
+                        &::before
+                            @include before_line
+                            bottom: 0
+                    img
+                        display: block
+                        margin: 0 auto

@@ -1,0 +1,93 @@
+@import _variables.sass
+@import _header.sass
+@import _footer.sass
+
+#delivery-partners
+    padding: 60px 0
+    h2
+        text-align: left
+        margin-bottom: 50px
+    p
+        font-size: 1.125rem
+        color: $gray
+        margin: 0 0 20px 0
+    .delivery_partners-list
+        li
+            margin: 0 0 30px 0
+            .delivery_partner
+                height: 180px
+                border: 1px solid #D5D5D5
+                display: flex
+                align-items: center
+                justify-content: center
+                cursor: pointer
+                &:hover
+                    border-color: $yellow
+                span
+                    text-transform: uppercase
+                    font-size: 1.5rem
+                    color: #EE4300
+#regions
+    background-image: url(../img/map.png)
+    background-size: cover
+    background-repeat: no-repeat
+    padding: 60px
+    .wrapper
+        background-color: $white
+        padding: 2rem 3rem
+        h3
+            text-transform: uppercase
+            font-size: 1.75rem
+            color: $black
+            margin: 0 0 30px 0
+        .region-list
+            margin: 0
+            overflow: hidden 
+            .region
+                margin: 5px 0
+                position: relative
+                z-index: 2
+                overflow: hidden                 
+                &::after
+                    display: block
+                    content: '•'
+                    position: absolute
+                    top: 0
+                    left: 0
+                a
+                    display: inline
+                    overflow: hidden
+                    position: relative
+                    text-decoration: none
+                    &::after
+                        display: block
+                        position: absolute
+                        content: ''
+                        height: 8px
+                        width: 100%
+                        background-color: $yellow
+                        bottom: 0
+                        z-index: -1
+                        left: -250px
+                        transition: linear all .4s
+                    &:hover
+                        transition: ease all .4s
+                        &::after
+                            left: 0
+                        
+                .child
+                    li
+                        position: relative
+                        margin: 5px 0 5px 5px 
+                        &::after
+                            display: block
+                            content: ''
+                            position: absolute
+                            top: 50%
+                            width: 8px
+                            height: 1px
+                            background-color: $black
+                            left: -15px
+
+                    
+                   
