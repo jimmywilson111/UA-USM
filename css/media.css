@@ -587,27 +587,27 @@ article ul li::before {
     margin-bottom: 15px;
   }
 
-  #about .article img {
+  #about article img {
     max-width: 100%;
     padding: 0 0 15px 0;
-    float: none;
+    float: unset;
   }
 
-  #about .article .subtitle {
+  #about article .subtitle {
     font-size: .875rem;
   }
 
-  #about .article p {
+  #about article p {
     font-size: .75rem;
     margin: 0 0 10px;
   }
 
-  #about .article ul {
+  #about article ul {
     font-size: .75rem;
     margin-bottom: 10px;
   }
 
-  #about .article ul li::before {
+  #about article ul li::before {
     height: 1px;
   }
 
@@ -861,6 +861,10 @@ article ul li::before {
     margin-left: 15px;
   }
 
+  #spare-parts {
+    padding: 25px 15px;
+  }
+
   #spare-parts .title-wrapper {
     margin: 0 0 20px 0;
   }
@@ -889,6 +893,7 @@ article ul li::before {
   #assortment .title-wrapper h2 {
     text-align: center;
     font-size: 1.4375rem;
+    width: 100%;
   }
 
   #assortment .title-wrapper label {
